@@ -1,10 +1,13 @@
-function moveName(move) {
- return {
-    0: 'up',
-    1: 'right',
-    2: 'down',
-    3: 'left'
-  }[move];
+function moveName(move) 
+{
+	return 
+	{
+    	0: 'up',
+    	1: 'right',
+    	2: 'down',
+    	3: 'left'
+  	}
+	[move];
 }
 
 var	global_max_score;
